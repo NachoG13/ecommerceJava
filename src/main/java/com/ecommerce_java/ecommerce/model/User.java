@@ -11,7 +11,10 @@ public class User {
     private String typeUser;
     private String password;
 
-    //Constructor
+    //Constructor vacío
+    public User() {
+    }
+    //Constructor con variables
     public User(Integer idUser, String userName, String name, String direction, String age, String email, String nPhone,
             String typeUser, String password) {
         this.idUser = idUser;
@@ -24,7 +27,6 @@ public class User {
         this.typeUser = typeUser;
         this.password = password;
     }
-
 
     public Integer getIdUser() {
         return idUser;

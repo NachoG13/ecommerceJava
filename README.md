@@ -70,4 +70,4 @@ spring.jpa.show-sql=true
     -  User
     -  Product
     -  Order
-    -  DetailOrder
+    -  OrderDetail
