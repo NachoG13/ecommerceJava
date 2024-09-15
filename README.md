@@ -1,5 +1,6 @@
-# Inico de Proyecto Personal de eCommerce
+# Inico de Proyecto Personal de eCommerce[^1].
 
+Inicio del Proyecto 
 ## Consideraciones
 ## Dependencias
  - Spring Web
@@ -11,7 +12,7 @@
 - Hibernate: 
 - ORM:
  
-## Inicio de Proyecto
+## 1. Inicio de Proyecto[^1].
 Al inicio de un proyecto con el framework Spring con la herramienta SpringBoot, al querer ejecutar el proyecto de 0 va a producir un error porque se intenta conectar a una base de datos que no existe. 
 
 ### Para ello coloco estas sentencias al `resources/application.properties`:
@@ -65,7 +66,7 @@ spring.jpa.show-sql=true
 # Model
 
 ## Estructura
-Clases:
+   Clases:
     -  User
     -  Product
     -  Order
