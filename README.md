@@ -23,7 +23,9 @@ spring.datasource.usernamespring.datasource.password=admin
 spring.jpa.show-sql=true
 ```
 
-#### ```spring.datasource.url=jdbc:mysql://localhost:3306/pa_db?createDatabaseIfNotExist=true```
+```java
+spring.datasource.url=jdbc:mysql://localhost:3306/pa_db?createDatabaseIfNotExist=true
+```
 
    - `jdbc:mysql`: protocolo de conexión para bases de datos MySQL. 
    - `localhost:3306`: el proyecto se va a poder acceder desde el localhost en el puerto 3306
