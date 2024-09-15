@@ -12,7 +12,7 @@ Inicio del Proyecto
 - Hibernate: 
 - ORM:
  
-## 1. Inicio de Proyecto[^1].
+## [^1]: Inicio de Proyecto
 Al inicio de un proyecto con el framework Spring con la herramienta SpringBoot, al querer ejecutar el proyecto de 0 va a producir un error porque se intenta conectar a una base de datos que no existe. 
 
 ### Para ello coloco estas sentencias al `resources/application.properties`:
